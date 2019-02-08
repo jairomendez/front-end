@@ -1,0 +1,124 @@
+.back-color{
+  background-image: linear-gradient(0deg,#00BCD4,#3b52c5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.main-blue-text{
+  color: #3b52c5!important;
+}
+.spinner-white-only{
+  border-color: #ffffff;
+}
+.user-show{
+  height: 20px;
+  top: 0;
+  right: 0;
+  /*width: 100px;*/
+  border-radius: 0px 0px 10px 10px;
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  transition: .3s ease;
+}
+.user-show:hover{
+  box-shadow: 1px 1px 100px rgba(0,0,0,0.7);
+}
+.user-show p{
+  margin: 0px 10px 0px 10px;
+}
+#main{
+  transition: 2s ease;
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  background: white;
+  border-radius: 1%;
+  opacity: 1;
+  box-shadow: 1px 1px 50px rgba(0,0,0,0.5);
+}
+.main-button{
+  z-index: 1;
+  transition: .3s ease;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: -5px;
+  right: 50px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+  cursor: pointer;
+  text-align: center;
+}
+.main-button i{
+  width: 100%;
+}
+.main-container{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  opacity: 1;
+  transition: .5s ease;
+  padding: 100px;
+}
+.main-container.trans-hidded{
+  opacity: 0;
+}
+.main-container.hidded{
+  opacity: 0;
+  display: none;
+}
+.main-button.activez{
+  transition: 1s ease;
+  top: 0px;
+  right: 0px!important;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+.main-button.activez i{
+  opacity: 0;
+}
+.main-button:hover{
+  box-shadow: 0px 0px 50px rgba(0,0,0,0.7);
+}
+.disable-main{
+  width: 0%!important;
+  height: 0%!important;
+  top: 50%!important;
+  left: 50%!important;
+  border-radius: 50%!important;
+  opacity: 0!important;
+}
+.preloader-container{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.btn-flat:focus,.btn-flat:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+  border-bottom: 1px solid #3b52c5;
+  -webkit-box-shadow: 0 1px 0 0 #3b52c5;
+  box-shadow: 0 1px 0 0 #3b52c5;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+  color: #3b52c5!important;
+}
+.modal-footer{
+  text-align: center!important;
+}
+
+#pa{
+  color: white;
+}
